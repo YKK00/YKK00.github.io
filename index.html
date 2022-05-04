@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'espace muette</title>
+    <link rel="stylesheet" href="css/fishc.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- 引入favicon图标 -->
+    <link rel="shortcut icon" href="favion.ico">
+</head>
+
+<body>
+
+    <a id="randomNet"><button>Bienvenue dans le monde du réalisme magique</button></a>
+    <script>
+        var bt = document.getElementById("randomNet");//标记button标签
+
+        function changeNum() {
+            var num = Math.ceil(Math.random() * list.length);
+            return num;
+        }
+
+        const list = [
+            'randomsentences/combinedRandom.html',
+            'randomsentences/randomsentence1.html',
+            'randomsentences/randomsentence2.html',
+            'randomsentences/randomsentence3.html',
+            'randomsentences/randomsentence4.html',
+            'randomsentences/randomsentence5.html',
+            'randomsentences/combine20.html',
+            'randomsentences/combine20All.html',
+            'randomsentences/combine100.html',
+            'randomsentences/combine20Allwhite.html',
+            'randomsentences/combine4white.html'];
+
+        function changeEveryTime() {
+            var num = changeNum();
+            randomNet.href = list[num - 1];
+        }
+        setInterval("changeEveryTime()", "100");//之前没有成功是因为前面没加引号
+    </script>
+
+</body>
+
+</html>

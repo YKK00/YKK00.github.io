@@ -1,0 +1,47 @@
+//随机改变背景颜色和框内颜色
+function changeBackgroundColor() {
+    var r = parseInt(Math.random() * 255);
+    var g = parseInt(Math.random() * 255);
+    var b = parseInt(Math.random() * 255);
+    var bgColor = r.toString(16) + g.toString(16) + b.toString(16);
+    document.body.style.background = "#" + bgColor;
+}
+
+changeBackgroundColor();//每次刷新界面都随机背景颜色
+
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+console.log(randomHex());
+
+var arr = document.getElementsByTagName('random'), temp = [];
+for (var i = 0; i < arr.length; i++) {
+    temp.push(arr[i].innerHTML);
+}
+
+
+window.onload = function () {
+    var ul = document.getElementsByTagName("ul");//找到该页面中的ul
+    for (var i = 0; i < ul.length; i++) {
+        for (var num = 0; num < ul.length; num++) {
+            ul[num].style.background = randomHex();
+        }
+    }
+}
+
+
+function Refresh() {
+    window.location.reload();
+}
+
+function GetRandomNum(Min, Max) {
+    var Range = Max - Min;
+    var Rand = Math.random();
+    return (Min + Math.round(Rand * Range));
+}
+
+//写句子
+var num = GetRandomNum(1, list.length);
+document.write(list[num - 1]);
+
+//得出该句子长度，根据句子的长度刷新页面
+var lengthofSentence = list[num - 1].length;
+setTimeout('Refresh()', 60 * lengthofSentence);

@@ -1,0 +1,37 @@
+.random {
+    list-style: none;
+    margin: auto;
+    width: 70%;
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.random1 {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.btn {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* .body {
+    background-color: tomato;
+} */
+
+/* 设置html元素的字体大小为 16px，即 1rem = 16px */
+html {
+    font-size: 16px;
+}
+
+/* 设置box元素宽 160px，10rem = 160px */
+.box {
+    width: 10rem;
+    /* 160px */
+}
