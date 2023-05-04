@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeux vidéo, cinéma, médias, réseaux sociaux : comment la Chine étend sa censure en Occident</title>
+  <script src="commonJS/common.js"></script>
+  <script src="commonJS/forbid.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: #F5F6F8;
+      display: flex;
+      justify-content: center;
+    }
+
+    .main {
+      width: 1000px;
+      height: auto;
+      box-sizing: border-box;
+      padding: 30px;
+      background-color: #fff;
+      overflow: hidden;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .tac {
+      text-align: center;
+    }
+
+    .tal {
+      text-align-last: left;
+    }
+
+    .input-words {
+      position: fixed;
+      width: 400px;
+      height: 30px;
+      font-size: 20px;
+      z-index: 999;
+      /* background-color: #cfcfcf; */
+    }
+
+    .forbi-words {
+      position: fixed;
+      left: 0;
+      width: 100px;
+      height: 100%;
+      background-color: rgb(228, 228, 228);
+    }
+
+    .forbi-words span {
+      display: block;
+      height: 50px;
+      background-color: #E4E4E4;
+      color: tomato;
+      line-height: 50px;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .forbi-words span:hover {
+      background-color: tomato;
+      color: #fff;
+    }
+
+    .forbi-words a {
+      width: 100px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #F5F6F8;
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      text-align: center;
+    }
+
+    .origin-words {
+      display: block;
+      position: relative;
+      /* width: 800px; */
+      /* font-size: 33px; */
+      /* overflow: hidden; */
+      margin-top: 0px;
+      /* font-size: 24px; */
+      display: flex;
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+    }
+
+    .sliced-word {
+      text-decoration: none;
+      color: #000000;
+      box-sizing: border-box;
+      display: block;
+      padding-right: 6px;
+      /* padding-left: 4px; */
+      margin-left: 2px;
+      text-align: center;
+    }
+
+    .verify-wrap {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(207, 207, 207, .9)
+    }
+
+    .verify-window {
+      width: 400px;
+      height: 590px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+    }
+
+    .veri-header {
+      width: 390px;
+      height: 115px;
+      margin-top: 10px;
+      background-color: #4A90E2;
+      box-sizing: border-box;
+    }
+
+    .veri-header-text {
+      margin-left: 20px;
+      margin-top: 20px;
+      height: 95px;
+      color: #fff;
+    }
+
+    .veri-header-text>p {
+      font-size: 18px;
+    }
+
+
+
+    .veri-imgs {
+      margin-top: 8px;
+    }
+
+    .veri-imgs>ul {
+      list-style: none;
+      width: 390px;
+      height: auto;
+    }
+
+    .veri-imgs>ul li {
+      position: relative;
+      float: left;
+    }
+
+    .veri-imgs>ul li:nth-of-type(n+4) {
+      margin-top: 6px;
+    }
+
+    .veri-imgs>ul li:nth-of-type(3n+2),
+    .veri-imgs>ul li:nth-of-type(3n+3) {
+      float: left;
+      margin-left: 6px;
+    }
+
+    .veri-imgs>ul li {
+      width: 126px;
+      height: 126px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .veri-imgs>ul li img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .veri-imgs>ul li img:nth-of-type(2) {
+      width: 30px;
+      height: 30px;
+      top: 5px;
+      left: 5px;
+      display: none;
+    }
+
+    .veri-footer {
+      position: relative;
+    }
+
+    .veri-footer>ul {
+      list-style: none;
+      width: 400px;
+      height: 60px;
+      margin-top: 20px;
+    }
+
+    .veri-footer>ul li {
+      float: left;
+      margin-left: 20px;
+    }
+
+    .veri-footer>ul li img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .veri-verify {
+      position: absolute;
+      width: 90px;
+      height: 40px;
+      background-color: #4A90E2;
+      right: 7px;
+      color: #fff;
+      border-radius: 2px;
+      bottom: 30px;
+      text-align: center;
+      line-height: 40px;
+      cursor: pointer;
+    }
+
+    .loading {
+      position: absolute;
+      right: 120px;
+      bottom: 35px;
+      border: 5px solid #f3f3f3;
+      border-top: 5px solid #555;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      animation: spin 2s linear infinite;
+      display: none;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="verify-wrap">
+    <div class="verify-window">
+      <div class="veri-header">
+        <div class="veri-header-text">
+          <p>Sélectionnez toutes les cases montrant des </p>
+          <h2>Une personne qui se sent heureuse, en sécurité et fière</h2>
+        </div>
+      </div>
+      <div class="veri-imgs">
+        <ul>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="veri-footer">
+        <ul>
+          <li><img src="img/veri-refresh.jpg" alt=""></li>
+          <li><img src="img/veri-disabled.jpg" alt=""></li>
+          <li><img src="img/veri-info.jpg" alt=""></li>
+        </ul>
+        <a class="loading"></a>
+        <a class="veri-verify">验证</a>
+      </div>
+    </div>
+  </div>
+  <input type="text" class="input-words" placeholder="输入你想屏蔽的词汇">
+  <div class="forbi-words">
+    <span>一键屏蔽</span>
+  </div>
+  <!-- <div class="header"></div> -->
+  <div class="main">
+    <h1 class="origin-words">Jeux vidéo, cinéma, médias, réseaux sociaux : comment la Chine étend sa censure en Occident
+    </h1><br>
+    <h4 class="origin-words">Les censeurs de Pékin ont accru leurs exigences depuis l’arrivée au pouvoir de Xi Jinping.
+      Et trouvent du
+      répondant dans de nombreuses firmes occidentales.</h4><br><br>
+
+    <p class="origin-words">Par Damien Leloup et Martin Untersinger</p><br>
+    <p class="origin-words">Publié le 10 novembre 2019 à 15h13 Mis à jour le 11 novembre 2019 à 10h11
+      Temps deLecture 10 min.</p><br>
+    <img src="img/china-video-game.jpg" alt="">
+    <p class="origin-words">La censure culturelle opérée par la Chine, longtemps tournée prioritairement
+      vers les citoyens du pays, déborde de plus en plus en Occident. XAVIER
+      LISSILLOUR</p><br>
+    <p class="origin-words">C’est un exemple récent parmi des dizaines d’autres. Le 8 octobre, Blizzard, l’éditeur
+      américain de jeux vidéo à
+      l’origine du très populaire Hearthstone, a annoncé avoir sanctionné Chung Ng Wai, un joueur professionnel, pour
+      avoir affiché son soutien aux manifestants hongkongais dans une interview.</p><br>
+
+    <p class="origin-words">Blizzard lui a interdit alors toute participation à un tournoi de Hearthstone pendant un an,
+      et a même voulu
+      renoncer à lui verser la somme qu’il avait gagnée lors du tournoi, estimant que le joueur avait enfreint les
+      règles interdisant aux joueurs de ses compétitions de faire de la politique. Devant la bronca, le président de
+      Blizzard a réduit la suspension de six mois et a accepté qu’il reçoive sa récompense.</p><br>
+
+    <p class="origin-words">Il s’est, ce faisant, défendu dans un communiqué de toute sympathie prochinoise :</p><br>
+
+    <p class="origin-words">« Les opinions de [Chung Ng Wai] n’ont joué aucun rôle dans notre décision. Je veux être
+      clair : nos relations
+      avec la Chine n’ont eu aucune influence. »</p><br>
+
+    <h4 class="origin-words">Censurer en Occident</h4><br>
+
+
+    <p class="origin-words">Les exemples sont multiples : la censure culturelle opérée par la Chine, longtemps tournée
+      prioritairement vers
+      les citoyens du pays, déborde de plus en plus en Occident. « Quand la Chine était centrée sur son développement
+      interne, la logique du Parti communiste était de contrôler l’information au sein de ses frontières. Aujourd’hui,
+      la Chine est devenue un acteur international majeur, une superpuissance qui veut avoir une présence
+      internationale, et qui cherche donc à contrôler ce qui est dit du gouvernement partout dans le monde », détaille
+      Cédric Alviani, directeur du bureau Asie de l’Est de Reporters sans frontières (RSF).</p><br>
+  </div>
+  <!-- <div class="footer"></div> -->
+
+  <script>
+    var forbiWords = [];
+    var oInput = $('.input-words');
+    var oForbiWords = $('.forbi-words');
+    var oButton = $('.forbi-words span');
+    var aColoredSlicedWord = $$('.colored-sliced-word');
+    var aSingleWord = $$('.sliced-word');
+    var oVerifyWrap = $('.verify-wrap');
+    var oVeriImgs = $('.veri-imgs');
+    var oVeriVerify = $('.veri-verify');
+    var aImgSelected = $$('.img-selected');
+    var aDiffImgs = $$('.diff-imgs');
+    var oLoading = $('.loading');
+    document.documentElement.style.overflowY = 'hidden';
+
+    /*弹窗部分*/
+    /*弹窗部分*/
+    /*弹窗部分*/
+    /*弹窗部分*/
+    var trueImgArr = [];
+    var i = 0;
+    while (i < 28) {
+      trueImgArr.push(`happy-people-${i}.png`);
+      i++;
+    }
+
+    console.log(trueImgArr);
+
+    //图片随机选取九张
+    console.log(aDiffImgs[0].src);
+    var ranImgArr = [];
+    for (var i = 0, len = aDiffImgs.length; i < len; i++) {
+      var ranIdx = getRandomInt(28);
+      if (ranImgArr.indexOf(ranIdx) === -1) {
+        ranImgArr.push(ranIdx);
+      } else {
+        i--;
+      }
+    }
+    for (var i = 0, len = aDiffImgs.length; i < len; i++) {
+      aDiffImgs[i].src = `img/imgs-french-version-verify/imgs/happy-people-${ranImgArr[i]}.png`
+    }
+    console.log(aDiffImgs);
+
+    //最少选取多少张
+    var leastNumVerified = 1;
+    var numCorrectImgs = 0;
+    var numErrorImgs = 0;
+    oVeriImgs.addEventListener('click', function (e) {
+      if (e.target.tagName === 'IMG') {
+        // console.log(idxElem(e.target.parentNode));
+        if (e.target.offsetWidth === 126) {
+          e.target.style.width = '100px';
+          e.target.style.height = '100px';
+          aImgSelected[idxElem(e.target.parentNode)].style.display = 'block';
+          // console.log(aDiffImgs[idxElem(e.target.parentNode)].src);
+          var isExist = false;
+          trueImgArr.forEach(item => {
+            if (aDiffImgs[idxElem(e.target.parentNode)].src.indexOf(item) !== -1) {
+              numCorrectImgs += 1;
+              isExist = true;
+            }
+          });
+          if (!isExist) {
+            numErrorImgs += 1;
+          }
+          console.log('numCorrectImgs:' + numCorrectImgs);
+          console.log('numErrorImgs:' + numErrorImgs);
+        }
+        //释放
+        else {
+          e.target.style.width = '126px';
+          e.target.style.height = '126px';
+          aImgSelected[idxElem(e.target.parentNode)].style.display = 'none';
+          var isExist = false;
+          trueImgArr.forEach(item => {
+            if (aDiffImgs[idxElem(e.target.parentNode)].src.indexOf(item) !== -1) {
+              numCorrectImgs -= 1;
+              isExist = true;
+            }
+          });
+          if (!isExist) {
+            numErrorImgs -= 1;
+          }
+        }
+      }
+    });
+
+    oVeriVerify.addEventListener('mouseup', function () {
+      oVeriVerify.style.backgroundColor = '#4A90E2';
+    })
+
+    oVeriVerify.addEventListener('mousedown', function () {
+      oVeriVerify.style.backgroundColor = '#7995BA';
+      if (numCorrectImgs >= leastNumVerified && numErrorImgs === 0) {
+        oLoading.style.display = 'block';
+        setTimeout(function () {
+          oVerifyWrap.style.display = 'none';
+        }, 2000);
+        document.documentElement.style.overflowY = 'scroll';
+      }
+    })
+    /*弹窗部分*/
+    /*弹窗部分*/
+    /*弹窗部分*/
+    /*弹窗部分*/
+
+
+
+    oInput.addEventListener('keydown', function (e) {
+      //按enter键获取value
+      if (e.keyCode === 13) {
+        if (!forbiWords.includes(oInput.value) && oInput.value !== '' && oInput.value.length < 10) {
+          forbiWords.push(oInput.value);
+          var newNode = document.createElement("a");
+          newNode.innerText = oInput.value;
+          //尽量不要用innerHTML,因为这个会导致页面的重绘
+          oForbiWords.appendChild(newNode);
+        }
+        oInput.value = '';
+      }
+    }, false);
+
+    // oButton.style.backgroundColor = 'red';
+    oButton.addEventListener('click', function () {
+      forbiJson.forbi(forbiWords);
+      forbiJson.reColor(forbiColor);
+    })
+
+    //分割词汇
+    var aForbiLabel = $$('.origin-words');
+    for (var i = 0, len = aForbiLabel.length; i < len; i++) {
+      sliceLabel(aForbiLabel[i]);
+    }
+
+    //分割字符
+    aSingleWord = $$('.sliced-word');
+    for (var i = 0, len = aSingleWord.length; i < len; i++) {
+      allSlicedLabel(aSingleWord[i]);
+    }
+
+    // console.log(forbiSymbol.length);
+    // console.log('Jeux'.indexOf('eu'));
+
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+
+    var ul = document.getElementsByTagName("ul");//找到该页面中的每一个ul（共四个）
+    for (var num = 0; num < ul.length; num++) {
+        ul[num].style.background = randomHex();//设置ul背景颜色
+    }
+
+    var li = document.getElementsByTagName("li");//找到该页面中的每一个li（共四个）
+    var sumofMots = 0;
+    for (var num = 0; num < li.length; num++) {
+        li[num].style.background = randomHex();//设置li背景颜色
+        switch (num) {
+            case (0):
+                i = GetRandomNum(1, list1.length);
+                li[num].innerHTML = list1[i - 1];
+                sumofMots += li[num].innerHTML.length;
+                break;
+            case (1):
+                i = GetRandomNum(1, list2.length);
+                li[num].innerHTML = list2[i - 1];
+                sumofMots += li[num].innerHTML.length;
+                break;
+            case (2):
+                i = GetRandomNum(1, list3.length);
+                li[num].innerHTML = list3[i - 1];
+                sumofMots += li[num].innerHTML.length;
+                break;
+            case (3):
+                i = GetRandomNum(1, list4.length);
+                li[num].innerHTML = list4[i - 1];
+                sumofMots += li[num].innerHTML.length;
+                break;
+        }
+
+    }
+    setTimeout('Refresh()', 60 * sumofMots);//刷新时间随着字数变化
+
+
+    //页面刷新函数
+function Refresh() {
+    window.location.reload();
+}
+
+
+
+    // var bt = document.getElementById("randomNet");//标记button标签
+    // var randThoughts = $('.randomThoughts');
+    // function changeNum() {
+    //   var num = Math.ceil(Math.random() * list.length);
+    //   return num;
+    // }
+
+    // const list = [
+    //   'randomsentences/combinedRandom.html',
+    //   'randomsentences/randomsentence1.html',
+    //   'randomsentences/randomsentence2.html',
+    //   'randomsentences/randomsentence3.html',
+    //   'randomsentences/randomsentence4.html',
+    //   'randomsentences/randomsentence5.html',
+    //   'randomsentences/combine20.html',
+    //   'randomsentences/combine20All.html',
+    //   'randomsentences/combine100.html',
+    //   'randomsentences/combine20Allwhite.html',
+    //   'randomsentences/combine4white.html'];
+
+    // function changeEveryTime() {
+    //   var num = changeNum();
+    //   randThoughts.href = list[num - 1];
+    // }
+    // setInterval("changeEveryTime()", "100");

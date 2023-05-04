@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chat changer</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .changed-text {
+      width: 500px;
+      height: 50px;
+      margin: 0 auto;
+      margin-top: 10px;
+      text-align: ce;
+      line-height: 50px;
+    }
+
+    .changed-text span {
+      font-size: 32px;
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .input-wrap {
+      width: 500px;
+      height: 50px;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+
+    input {
+      width: 500px;
+      height: 50px;
+      padding-left: 10px;
+      font-size: 32px;
+    }
+
+    .label {
+      width: 500px;
+      height: 50px;
+      margin: 0 auto;
+      text-align: left;
+      line-height: 50px;
+      margin-top: 100px;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    .explaintion {
+      width: 500px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 32px;
+      margin: 0 auto;
+      margin-top: 80px;
+      text-align-last: left;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <div id="input">
+    <div class="label">
+      <p v-html="updateLabels"></p>
+    </div>
+    <div class="input-wrap">
+      <input class="input" type="text" v-model="value" placeholder="请在此输入文字,按下回车转换">
+    </div>
+    <div class="changed-text">
+      <span>{{value}} {{isInputed}}</span> <span v-html="updateMsg"></span>
+    </div>
+
+    <div class="explaintion">
+      <p v-html="explaination"></p>
+    </div>
+  </div>
+
+
+</body>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script src="databases/chat-changer-bases.js"></script>
+<script>
+
+  var app = new Vue({
+    el: '#input',
+    data() {
+      return {
+        value: '',
+        explaination: '',
+      };
+    },
+    methods: {
+    },
+    computed: {
+      isInputed: function () {
+        if (this.value !== '') {
+          return "=>";
+        }
+      },
+      updateMsg: function () {
+        var changedMsg = this.value;
+        Object.keys(sensorJson).forEach(item => {
+          if (changedMsg.indexOf(item) !== -1) {
+            while (changedMsg.indexOf(item) !== -1) {
+              changedMsg = changedMsg.replace(item, `<span style="color: red;">${sensorJson[item].changed}</span>`);
+              if (this.explaination.indexOf(`<p>${item}</p><p>${sensorJson[item].explanation}</p>`) === -1) {
+                this.explaination += `<p>${item}</p><p>${sensorJson[item].explanation}</p>`;
+              }
+            }
+          }
+        });
+        return changedMsg;
+      },
+      updateLabels: function () {
+        var labelHtml = ``;
+        for (var i = 0; i < 4; i++) {
+          var num = Math.round(Math.random() * (Object.keys(sensorJson).length - 1));
+          if (labelHtml.indexOf(`<span style="font-size:32px;display:inline-block;padding:0 10px;">${Object.keys(sensorJson)[num]}</span>`) === -1) {
+            labelHtml += `<span style="font-size:32px;display:inline-block;padding:0 10px;">${Object.keys(sensorJson)[num]}</span>`;
+          } else {
+            i--;
+          }
+        }
+        return labelHtml;
+      },
+      explaination: function () {
+        return explaination;
+      }
+    }
+  });
+
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .douyin {
+      animation: uk-text-shadow-glitch .65s cubic-bezier(1, -2.91, 0, 3.79) 0s infinite normal both running;
+    }
+
+    @keyframes uk-text-shadow-glitch {
+      0% {
+        text-shadow: none
+      }
+
+      25% {
+        text-shadow: -2px -2px 0 #ff0048, 2px 2px 0 #3234ff
+      }
+
+      50% {
+        text-shadow: 2px -2px 0 #ff0048, -2px 2px 0 #3234ff
+      }
+
+      75% {
+        text-shadow: -2px 2px 0 #ff0048, 2px -2px 0 #3234ff
+      }
+
+      100% {
+        text-shadow: 2px 2px 0 #ff0048, -2px -2px 0 #3234ff
+      }
+    }
+
+    @keyframes uk-flicker {
+      0% {
+        opacity: 0
+      }
+
+      10% {
+        opacity: .6;
+        transform: scale(.8)
+      }
+
+      20% {
+        opacity: 0
+      }
+
+      40% {
+        opacity: 1
+      }
+
+      50% {
+        opacity: .2;
+        transform: scale(1.1)
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <p class="douyin">www.w3h5.com</p>
+
+</body>
+
+</html>

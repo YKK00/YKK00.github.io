@@ -1,0 +1,862 @@
+Voie de transmission de l'épidémie, cas 1
+
+52 ans, homme, chauffeur de taxi
+
+01/12/21
+Conduire un taxi de 6h00 à 2h00 le jour suivant.
+
+02/12/21
+Aller au supermarché à 8 heures du matin pour faire des courses, 
+puis rentrer chez soi et n'est pas sorti.
+
+03/12/21
+Conduire un taxi de 6h00 à 2h00 le jour suivant.
+
+04/12/21
+Aller au supermarché à 8 heures du matin pour faire des courses, 
+puis rentrer chez soi et n'est pas sorti.
+
+05/12/21
+Conduire un taxi de 6h00 à 2h00 le jour suivant.
+Pendant 11h00 et 18h00 au restaurant rapide A.
+
+06/12/21
+Aller au supermarché à 8 heures du matin pour faire des courses, 
+puis rentrer chez soi et n'est pas sorti.
+
+07/12/21
+Conduire un taxi de 5h00 à 15h00 le jour suivant.
+Pendant 10h00 au restaurant rapide B.
+
+Voie de transmission de l'épidémie, cas 2
+
+Homme, personnel de Catering Equipment Ltd
+
+14/01/22
+Déposer l’enfant à l'école primaire en vélo électrique à 6h40.
+Se rendre au travail en vélo électrique à 6h55.
+Rentrer du travail à vélo électrique à 20h30.
+
+15/01/22
+Se rendre au travail en vélo électrique à 7h00.
+Rentrer du travail à vélo électrique à 20h30.
+
+16/01/22
+Repos à la maison, courses au supermarché à 14h15.
+
+17/01/22
+Déposer l’enfant à l'école primaire en vélo électrique à 6h40.
+Se rendre au travail en vélo électrique à 6h55.
+Rentrer du travail à vélo électrique à 20h30.
+
+18/01/22
+Déposer l’enfant à l'école primaire en vélo électrique à 6h40.
+Se rendre au travail en vélo électrique à 6h55.
+Rentrer du travail à vélo électrique à 20h30.
+
+19/01/22
+Déposer l’enfant à l'école primaire en vélo électrique à 6h40.
+Se rendre au travail en vélo électrique à 6h55.
+Participer à la réunion de synthèse de fin d'année à l'unité de 15h00 à 18h00.
+Rentrer du travail à vélo électrique à 20h30.
+
+20/01/22
+Se rendre au travail en vélo électrique à 7h00.
+Rentrer du travail à vélo électrique à 20h30.
+
+21/01/22
+Acheter le petit-déjeuner à la cantine à 6h38.
+Se rendre au travail en vélo électrique à 7h00.
+Rentrer du travail à vélo électrique à 20h30.
+
+22/01/22
+Acheter le petit-déjeuner à la cantine à 6h51.
+Se rendre au travail en vélo électrique à 7h00.
+Rentrer du travail à vélo électrique à 20h30.
+
+23/01/22
+Repos à la maison et n'est pas sorti.
+
+24/01/22
+Se rendre au travail en vélo électrique à 7h00.
+Prendre la voiture d'un collègue pour rentrer chez lui au travail à 20h30.
+Acheter des médicaments dans une pharmacie à 21h20.
+Rentrer chez soi à 21h30.
+
+25/01/22
+Acheter le petit-déjeuner à la cantine à 6h37.
+Prendre la voiture d'un collègue pour aller travailler à  7h00.
+Se rendre à ses rendez-vous à l'hôpital en vélo électrique à  12h40,
+puis rentrer chez soi et n'est pas sorti.
+
+Voie de transmission de l'épidémie, cas 3
+
+44 ans, homme, porteur de matériaux de décoration
+
+01/01/22
+Travailler dans un hôtel A de 23h30 à 16h43 le jour suivant.
+
+02/01/22
+Travailler dans le théâtre B de 23h00 à 3h30 le jour suivant.
+
+03/01/22
+Travailler dans la communauté C puis travailler dans un point de collecte de déchets de 21h00 à 1h37 le jour suivant.
+
+04/01/22
+Travailler dans la région de la Villa D de 14h00 à 14h30.
+
+05/01/22
+Travailler dans la communauté E à 12h00.
+Travailler sur des chantiers de construction F à 16h00.
+Travailler sur des chantiers de construction G à 17h00.
+
+06/01/22
+Travailler dans la communauté H de 11h00 à 12h08.
+Travailler à l'usine I à 12h21.
+Travailler à l'usine J à 21h06.
+Travailler dans la communauté K de 21h00 à 23h04.
+
+07/01/22
+Travailler dans la communauté L à 14h30.
+
+08/01/22
+Manger seul dans au restaurant rapide M à 12:36.
+Travailler dans la communauté N à 14h00.
+Travailler dans la communauté O à 15h15.
+Travailler dans la communauté K de 17h00 à 21h30.
+
+09/01/22
+Travailler dans la communauté O de 7h30 à 10h10.
+
+10/01/22
+Travailler dans le restaurant P-1 de 0h00 à 1h45.
+Travailler dans le restaurant P-2 à 2h00.
+Travailler dans l'immeuble de bureaux Q à 3h00.
+Travailler dans la zone industrielle R à 4h00.
+Travailler dans la région de la Villa S à 9h00.
+
+11/01/22
+Travailler dans le théâtre B à 2h58.
+Travailler dans l'immeuble de bureaux T de 23h00 à 3h00 le jour suivant.
+
+12/01/22
+Travailler dans la communauté U à 4h00.
+Travailler dans le théâtre B de 23h18 à 3h43 le jour suivant.
+
+13/01/22
+Travailler dans la communauté U-1 de 19h00 à 20h00.
+Travailler dans le centre commercial de 23h58 à 5h05 le jour suivant.
+
+14/01/22
+Travailler dans la communauté U-2 de 11h05 à 17h40.
+Travailler dans le théâtre B de 22h18 à 3h51 le jour suivant.
+
+17/01/22
+Aller au bureau et envoyer la lettre, puis retour à la maison à 10h23.
+Se rendre dans un centre de services de santé pour un prélèvement d'acide nucléique afin de recueillir un écouvillon de gorge à 12h05.
+
+18/01/22
+Prendre le métro jusqu'à la gare à 7h12.
+Débarqué à la gare en raison d'un résultat positif suspecté du test d'acide nucléique du CDC à 20h57, en attente de traitement ultérieur.
+Transféré par ambulance à l'hôpital pour traitement d'isolement à 12h00.
+
+Voie de transmission de l'épidémie, cas 4
+
+32 ans, femme, employée d'Electric Vehicle Technology Ltd
+
+11/12/21
+Sortie de l'hôpital à 8h00 avec un résultat négatif au test d'acide nucléique.
+
+12/12/21
+Prendre un taxi à l'hôpital pour un changement de médicament à 9h30 et rentrer chez soi.
+
+13/12/21
+À la maison.
+
+14/12/21
+À la maison.
+
+14/12/21
+À la maison. 
+
+14/12/21
+À la maison.
+
+17/12/21
+Prendre un taxi pour se rendre à l'hôpital pour un rendez-vous de suivi et rentrer à la maison.
+
+18/12/21
+Aller au travail.
+Emploi à temps partiel dans une entreprise de messagerie de 22h00 à 2h00 le jour suivant.
+
+19/12/21
+A la maison.
+
+20/12/21
+Bus pour l'hôpital, suivi de courses au supermarché.
+Emploi à temps partiel dans une entreprise de messagerie de nuit.
+
+21/12/21
+A la maison pendant la journée. La nuit à la clinique, magasin de nouilles. Emploi à temps partiel dans une entreprise de messagerie de 22h00 à 2h00 le jour suivant.
+
+22/12/21
+Travailler dans l'entreprise pendant la journée. Emploi à temps partiel dans une entreprise de messagerie de 22h00 à 2h00 le jour suivant.
+
+23/12/21
+Travailler dans l'entreprise pendant la journée. Emploi à temps partiel dans une entreprise de messagerie de 22h00 à 2h00 le jour suivant.
+
+24/12/21
+Travailler dans l'entreprise pendant la journée. Emploi à temps partiel dans une entreprise de messagerie de 22h00 à 2h00 le jour suivant.
+
+25/12/21
+Travailler dans l’entreprise.
+Auto-isolé et transféré à l'hôtel d'observation médicale d'isolement centralisé après avoir reçu un appel du CDC de district à 9h30.
+
+Voie de transmission de l'épidémie, cas 5
+
+31 ans, homme, personnel de Spare Parts Trading Services Ltd
+
+11/12/21
+Séjourner avec sa femme à l’hôpital. Pendant cette période, des visites ont été effectuées au détachement de la circulation et au parking. Prendre un taxi pour rentrer chez soi à 18h16.
+
+12/12/21
+Le principal mode d'activité est à la maison ou au travail pendant la journée et le travail à temps partiel dans une entreprise de messagerie le soir.
+
+13/12/21
+Le principal mode d'activité est à la maison ou au travail pendant la journée et le travail à temps partiel dans une entreprise de messagerie le soir.
+
+14/12/21
+Le principal mode d'activité est à la maison ou au travail pendant la journée et le travail à temps partiel dans une entreprise de messagerie le soir.
+
+15/12/21
+Le principal mode d'activité est à la maison ou au travail pendant la journée et le travail à temps partiel dans une entreprise de messagerie le soir.
+
+16/12/21
+Le principal mode d'activité est à la maison ou au travail pendant la journée et le travail à temps partiel dans une entreprise de messagerie le soir.
+
+17/12/21
+Le principal mode d'activité est à la maison ou au travail pendant la journée et le travail à temps partiel dans une entreprise de messagerie le soir.
+
+18/12/21
+Le principal mode d'activité est à la maison ou au travail pendant la journée et le travail à temps partiel dans une entreprise de messagerie le soir.
+
+19/12/21
+Le principal mode d'activité est à la maison ou au travail pendant la journée et le travail à temps partiel dans une entreprise de messagerie le soir.
+
+20/12/21
+En bus jusqu'à l’hôpital à 10h00, puis les courses au supermarché. Le travail à temps partiel dans une entreprise de messagerie le soir.
+
+21/12/21
+À la maison pendant la journée et dans les cliniques et les magasins de nouilles le soir. Le travail à temps partiel dans une entreprise de messagerie le soir.
+
+22/12/21
+À la maison. 
+
+23/12/21
+Se rendre au travail. Dîner au restaurant de canard rôti à 18h30. Le travail à temps partiel dans une entreprise de messagerie le soir.
+
+24/12/21
+Envoyer sa femme dans la zone industrielle à 8h00 puis travailler dans l’entreprise. Manger dans un restaurant de nouilles à 19h00. Le travail à temps partiel dans une entreprise de messagerie le soir.
+
+25/12/21
+Envoyer sa femme dans une zone industrielle et rentrer à la maison. 
+Après avoir reçu un appel du CDC du district à 12h20, il s'est rendu au supermarché pour faire ses courses, puis s'est isolé chez lui, puis a été transféré dans un hôtel d'observation médicale à isolement centralisé.
+
+Voie de transmission de l'épidémie, cas 6
+
+40 ans, homme, conducteur de covoiturage
+
+11/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+12/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+13/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+14/12/21
+Service de conduite e-taxi en ligne de 6h00 à 17h50, puis livraison à l'aire d'autoroute de la ville A et retour.
+
+15/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+16/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+17/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+18/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+19/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+20/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Transporter un patient confirmé de la ville B au supermarché C.
+
+21/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+22/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+23/12/21
+Service de conduite e-taxi en ligne de 6h00 à 23h00. Pendant cette période, tous les repas sont pris à l’extérieur.
+
+24/12/21
+Service de conduite e-taxi en ligne de 6h00 à 19h00. Manger dans un magasin de nouilles D à 19h30.
+
+25/12/21
+Manger à la boutique de brioches à 7h00. Manger dans un magasin de nouilles E à 14h00. Notifiée comme contact proche à 17h00 et isolée seule dans la voiture. Transférée à l'hôtel d'observation médicale d'isolement centralisé à 18h30.
+
+Voie de transmission de l'épidémie, cas 7
+
+34 ans, homme
+
+08/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs.
+
+09/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs.
+
+10/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs.
+
+11/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs.
+
+12/12/21
+Au supermarché à 10h30. N'est pas sorti après être rentré chez lui vers 17h00.
+
+13/12/21
+Élever des enfants dans un centre de la petite enfance à 10h30. Environ 1,5 heure. Restaurant de soupe de haggis à côté, environ 1 heure. Ville A, marcher jusqu'à Uniqlo via le garage souterrain à 14h00. N'est pas sorti après être rentré chez lui vers 16h00. Les crevettes, les steaks et le porc surgelés sont achetés via l'application et stockés ensuite dans votre propre réfrigérateur pour être utilisés les uns après les autres.
+
+14/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs.
+
+15/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs.
+
+16/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs.
+
+17/12/21
+Environ une heure au centre de santé à 10h00. Par le bus numéro 31 à 12h00. Via le rez-de-chaussée, restaurant, magasin de livres d'images, magasin de jouets, magasin de vêtements, voiture électrique pour enfants, aire de jeux, magasin de chemises. N'est pas sorti après être rentré chez lui à 17h00.
+
+18/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs.
+
+19/12/21
+Élever des enfants dans un centre de la petite enfance à 10h30. Environ 1,5 heure. Magasin de soupe de haggis à côté à 13h00, environ 1,5 heures. Ensuite, les supermarchés, les terrains de jeux et les magasins de chaussures. N'est pas sorti après être rentré chez lui à 17h00.
+
+20/12/21
+Parc aquatique, en bus, de 11h00 à 17h00. Dîner dans le salon du parc aquatique vers 14 heures. N'est pas sorti après être rentré chez lui vers 17h00, sauf pour descendre jeter les ordures.
+
+21/12/21
+Par les lignes de métro 8 et 15 de 7h00 à 8h30. Dans les bureaux de l'entreprise, le restaurant au rez-de-chaussée de 8h30 à 17h00. Par le métro de la ligne 8 et 15 puis retour à la maison, sans sortir et pas de visiteurs. 
+
+22/12/21
+Prendre le bus jusqu'au point d'échantillonnage pour les tests d'acide nucléique dans le bloc A du bâtiment. Puis au bureau, via l'arrêt de bus, la station de métro. Transfert au terminal en e-taxi à 16h00, vol vers la ville B à 17h45, arrivée à l'hôtel à 20h10
+
+Voie de transmission de l'épidémie, cas 8
+
+24/02/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+25/02/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+26/02/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+27/02/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+28/02/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+01/03/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+02/03/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+03/03/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+04/03/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+05/03/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+06/03/22
+Conduire jusqu'au Village A pour un dîner à la fortune du pot à 9h00. Retour à la maison à 17h00. Magasinage au rez-de-chaussée du supermarché pendant cette période à 18h00, retour à la maison après un court séjour.
+
+07/03/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+08/03/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir.
+
+09/03/22
+Bicyclette à l'usine à 7h00, pas d'antécédents de sortie pendant cette période. Retour à la maison en vélo à 18h00, sans sortir. Vers 21h30, il a été isolé comme étant un contact proche du virus.
+
+Voie de transmission de l'épidémie, cas 9
+
+24/02/22
+Travailler à l’usine de 7h20 à 17h00. Après le travail à 17h00, acheter un repas à l'étalage de tartes aux légumes sur le côté ouest de la porte sud de l'usine et retour à l’usine, quittez le travail à 20h30. Rentrer chez soi après avoir fait des courses au supermarché à 20h40 et retour à la maison, sans sortir.
+
+25/02/22
+Travailler à l’usine de 7h20 à 20h30. Puis retour à la maison, sans sortir.
+
+26/02/22
+Travailler à l’usine de 7h20 à 17h00. Acheter un repas au stand de crêpes à la porte sud de l'usine à 17h00 et retour à l’usine. Retour à la maison après le travail à 20h30, sans sortir.
+
+27/02/22
+Petit-déjeuner au magasin de burrito à l'ouest de la communauté de 8h30 à 8h35, puis conduire jusqu'à la rue commerçante. Conduire jusqu'à la maison des parents à 9h30. Faire ses courses au supermarché de 13h30 à 13h55. Retour à la maison des parents à 14h20. Rentrer chez soi en voiture après avoir fait du shopping dans un magasin d’horlogerie, sans sortir.
+
+28/02/22
+Travailler à l’usine de 7h20 à 20h30, puis retour à la maison, sans sortir.
+
+01/03/22
+Travailler à l’usine de 7h20 à 17h00. Acheter un repas au stand de crêpes à la porte sud de l'usine à 12h00 et retour à l’usine. Se rendre au supermarché situé à l'ouest de l'entrée de la communauté après le travail et rentrer chez soi après les courses à 20h30, sans sortir.
+
+02/03/22
+Travailler à l’usine de 7h20 à 17h00. Acheter un repas au stand de crêpes à la porte sud de l'usine à 17h00 et retour à l’usine. Retour à la maison à 20h30, sans sortir.
+
+03/03/22
+Acheter un repas à l'étalage de brioches devant la communauté, puis aller travailler. Travail jusqu’à 20h30, puis conduire à la maison, sans sortir.
+
+04/03/22
+Petit-déjeuner à la boulangerie de 7h10 à 7h20 et ensuite travail, jusqu’à 20h30, puis conduire à la maison, sans sortir.
+
+05/03/22
+Travailler à l’usine de 7h10 à 17h00. Acheter un repas au stand de crêpes à l'entrée sud de l'usine, puis aller travailler. Travail jusqu’à 20h30, puis  conduire à la maison, sans sortir.
+
+06/03/22
+Travailler à l’usine de 7h10 à 12h00. 12h05 Récupération des plats à emporter et retour au travail à l'usine jusqu'à 17h00. Conduire jusqu'à Commercial Street pour faire des achats, faire des achats au magasin de montres de 17h20 à 17h34, puis au magasin de sucre, conduire jusqu'au point de messagerie à 18h pour récupérer le courrier, puis conduire jusqu'à Commercial Street pour faire des achats, et rentrer chez soi sans ressortir.
+
+07/03/22
+Travailler à l’usine de 7h10 à 17h00. Retour au travail après avoir acheté un repas au stand de crêpes à l'entrée sud de l’usine, jusqu’à 20h30, puis conduire à la maison, sans sortir.
+
+08/03/22
+Travailler à l’usine de 7h10 à 17h00. Retour au travail après avoir acheté un repas au stand de crêpes à l'entrée sud de l’usine, jusqu’à 20h30, puis conduire à la maison, sans sortir.
+
+09/03/22
+Travailler à l’usine de 7h10 à 17h00. Retour au travail après avoir acheté un repas au stand de crêpes à l'entrée sud de l’usine, jusqu’à 20h30, puis conduire à la maison, sans sortir.
+
+Voie de transmission de l'épidémie, cas 10
+
+24/02/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+25/02/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+26/02/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+27/02/22
+Conduire à ville A avec la famille à 9h30, retour à ville B à 13h30. Dîner à la Maison de la soupe de la chèvre de 13h57 à 14h30. Envoyer sa fille à l’école à 14h40. Acheter des vêtements au premier étage du supermarché pendant environ 30 minutes, puis retour à la maison.
+
+28/02/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+01/03/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+02/03/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+03/03/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+04/03/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+05/03/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+06/03/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 17h30.
+
+07/03/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+08/03/22
+Se rendre à vélo au travail à l’usine à 7h15, pas d'antécédents de sorties au cours de la période, retour à la maison en vélo à 21h50.
+
+09/03/22
+Se rendre à vélo au travail à l’usine à 7h15.
+
+Voie de transmission de l'épidémie, cas 11
+
+24/02/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+25/02/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+26/02/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+27/02/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+28/02/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+01/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+02/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+03/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+04/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+05/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+06/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+07/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+08/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+09/03/22
+Après le petit-déjeuner à 7h30, conduire un tricycle électrique pour aller travailler à l'usine avec sa femme. Rentre du travail avec sa femme sur un tricycle électrique, pas de sorties.
+
+Voie de transmission de l'épidémie, cas 11
+
+25/02/22
+Acheter de la nourriture au magasin de brioches à 8h00, puis se rendre à l'usine en vélo électrique après le travail, sans quitter l'usine avant la fin du travail. Faire des courses au supermarché à 19h29.
+
+26/02/22
+Travailler dans l’usine.
+
+27/02/22
+Travailler dans l’usine.
+
+28/02/22
+Travailler dans l’usine.
+
+01/03/22
+Travailler dans l’usine.
+
+02/03/22
+Travailler dans l’usine.
+
+03/03/22
+Travailler dans l’usine.
+
+04/03/22
+Travailler dans l’usine.
+
+05/03/22
+Travailler dans l’usine.
+
+06/03/22
+Dîner dans un restaurant pour ânes 8h02 ; Coupe de cheveux chez un coiffeur de 9h20 à 11h20; Shopping dans un grand magasin à 12h55 ; Shopping chez IKEA puis retour à la maison à 13h13 ; Shopping dans une supérette communautaire à 17h13; Dîner avec des amis à l’hôtel à 18h00, départ à 23:00.
+
+07/03/22
+Travailler dans l’usine de 7h40 à 20h30. Faire des achats dans les magasins de proximité de la communauté à 20h41.
+
+08/03/22
+Travailler dans l’usine de 7h40 à 20h30, n'est pas parti pendant cette période.
+
+Voie de transmission de l'épidémie, cas 12
+
+31 ans, homme
+
+18/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer (chambre individuelle), puis n'est pas sorti.
+
+19/12/21
+se rendre à l'unité hépatique de l'hôpital à 7h40, acheter des médicaments dans une pharmacie à 8h18, puis rentrer à vélo sur son lieu de résidence ; Acheté des fruits de mer sur un marché aux poissons à 8h44, faire ses courses dans un supermarché à 9h00, puis est rentrer à la maison sans sortir.
+
+20/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer (chambre individuelle), puis n'est pas sorti.
+
+21/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer (chambre individuelle), puis n'est pas sorti.
+
+22/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer (chambre individuelle), puis n'est pas sorti.
+
+23/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer (chambre individuelle), puis n'est pas sorti.
+
+24/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer (chambre individuelle), puis n'est pas sorti.
+
+25/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 17h00, puis n'est pas sorti.
+
+26/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 17h00, puis n'est pas sorti.
+
+27/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer, puis n'est pas sorti.
+
+28/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer, puis n'est pas sorti.
+
+29/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00 et rentrer la maison pour se reposer, puis n'est pas sorti.
+
+30/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. Déjeuner dans la cantine de l’unité à 10h40. Aller travailler à l'atelier à 11h00, quitter le travail à 16h00, dîner à la cantine de l'unité, aller travailler à l'atelier à 16h25, quitter le travail à 21h00. Acheter des bonbons à un étalage mobile au carrefour A (en portant un masque) à 21h08, après 
+retour au village B en vélo électrique. Faire des achats dans un grand magasin près du village B (en portant un masque) à 21h49, après rentrer à la maison sans sortir.
+
+31/12/21
+Utiliser un vélo électrique pour aller travailler à l’unité à 7h00 et prendre le petit-déjeuner à la cantine de l’unité. Aller travailler dans l'atelier (en portant un masque) à 7h25. À 22 h 30, il a pris un taxi (plaque d'immatriculation XXX) pour se rendre à l'Hôpital chinois afin d'y recevoir un traitement médical, car il avait l'intention d'être hospitalisé pour des tests d'acide nucléique. À 23 h 10, il a mangé dans un restaurant rapide (en contactant le propriétaire du restaurant, un couple de 2 personnes et 3 personnes qui dînaient avec lui). À 23 h 30, il est retourné au travail sur une bicyclette électrique partagée. Il est rentré du travail sur sa bicyclette électrique à 19 heures et n'est plus reparti.
+
+01/01/22
+Transporté par véhicule à pression négative vers un hôpital désigné pour l'isolement et le traitement à 0h58.
+
+Voie de transmission de l'épidémie, cas 13
+
+47 ans, homme, personnel de service
+
+01/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+02/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+03/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+04/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+05/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+06/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+07/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+08/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+09/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+10/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+11/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+12/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+13/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+14/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+15/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+16/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+17/06/21
+Prise de commandes pour la livraison de nourriture via la plateforme de vente à emporter. La zone de livraison s'étend sur environ 20 kilomètres carrés. En moyenne, recevoir environ 50 commandes. Travailler de 7h00 à 21h00, puis chercher sa femme au centre commercial sur son vélo électrique.
+
+18/06/21
+Faire des courses au restaurant rapide A, au marché et au magasin d'alimentation près de chez soi de 11h00 à 13h00, puis retour à la maison, sans avoir pris de commande ce jour-là.
+
+19/06/21
+Travail à 10h00 et prise de commandes au Fruit Shop B, Fast Food Shop C, Meat Pie Shop et Fruit Shop E. Courses au supermarché près de la maison à 15h00 et à l'étalage de fruits près de la maison à 22h00.
+
+20/06/21
+Travail à 10h00 et fin à 22h00, a pris des commandes à Fruit Shop F et Fruit Shop G. 
+
+21/06/21
+Transféré par ambulance à la clinique de la fièvre de l'hôpital pour examen à 9h00, diagnostic confirmé le jour même.
+
+Voie de transmission de l'épidémie, cas 14
+
+05/03/22
+Aller au travail en vélo électrique à l'entreprise de vêtements vers 7h30. Apporter son propre déjeuner et manger au bureau. Quitter l'appartement en vélo électrique vers 18h30 pour aller au marché acheter de la nourriture (en portant un masque tout le long du trajet). Retour à la maison en vélo électrique vers 18h50.
+
+06/03/22
+Aller au travail en vélo électrique à l'entreprise de vêtements vers 7h30. Apporter son propre déjeuner et manger au bureau. Retour à la maison en vélo électrique vers 23h50.
+
+07/03/22
+Vers 7h00, elle s'est rendue en vélo électrique à l'hôpital pour un test d'acide nucléique, qui s'est avéré négatif ; vers 10h00, elle s'est rendue en vélo électrique au marché pour acheter de la nourriture (en portant un masque pendant toute la durée de l'opération) ; vers 10h40, elle s'est rendue en vélo électrique au magasin de pain pour acheter de la nourriture (en portant un masque pendant toute la durée de l'opération) ; vers 10h50, elle est rentrée chez elle en vélo électrique ; vers 17h00, elle s'est rendue en voiture avec son mari chez sa belle-mère ; vers 21h00, elle s'est rendue en voiture avec son mari à l'hôpital. Elle est rentrée chez elle en voiture avec son mari vers 21 heures.
+
+08/03/22
+Aller au travail en vélo électrique à l'entreprise de vêtements vers 7h30. Apporter son propre déjeuner et manger au bureau. Retour à la maison en vélo électrique vers 21h30.
+
+09/03/22
+Aller au travail en vélo électrique à l'entreprise de vêtements vers 7h30. Apporter son propre déjeuner et manger au bureau. Retour à la maison en vélo électrique vers 19h50.
+
+10/03/22
+Aller au travail en vélo électrique à l'entreprise de vêtements vers 7h30. Apporter son propre déjeuner et manger au bureau. Vers 12h20, descendre à l'unité pour s'inscrire à l'épreuve plénière d'acide nucléique. Descends à l'unité pour un test d'acide nucléique vers 17h30 et les résultats sont négatifs. Retour à la maison en vélo électrique vers 22h20. Retirer sa livraison de la poste dans la région vers 20:40. Vers 20h50, aller à la pharmacie pour acheter des médicaments (porter un masque pendant toute la durée de l’opération). Quitter la pharmacie vers 21 heures pour rentrer chez soi.
+
+11/03/22
+Sans sortir.
+
+12/03/22
+Transfert vers un hôtel d'isolement central.
+
+Voie de transmission de l'épidémie, cas 15
+
+32 ans, homme, employé d'une entreprise de services commerciaux
+
+13/12/21
+Travail en entreprise de 12h00 à 18h00.
+
+14/12/21
+Travail en entreprise de 08h40 à 18h30.
+
+15/12/21
+Travail en entreprise de 08h00 à 18h30. Dîner au restaurant de canard rôti après le travail.
+
+16/12/21
+Travail en entreprise de 08h00 à 18h30.
+
+17/12/21
+Travail en entreprise de 08h00 à 18h30.
+
+18/12/21
+Travail en entreprise de 08h00 à 18h30.
+
+19/12/21
+Arrivé au Village A à 11h00, et n'est pas sorti après être rentré chez lui en voiture à 15h30.
+
+20/12/21
+À la maison.
+
+21/12/21
+Travail en entreprise de 10h00 à 21h00. Ne pas sortir depuis son retour à la maison après avoir quitté le travail.
+
+22/12/21
+Travail en entreprise de 10h00 à 21h00. Ne pas sortir depuis son retour à la maison après avoir quitté le travail.
+
+23/12/21
+Travail en entreprise de 10h00 à 21h00. Ne pas sortir depuis son retour à la maison après avoir quitté le travail.
+
+24/12/21
+Travail en entreprise de 10h00 à 21h00. Ne pas sortir depuis son retour à la maison après avoir quitté le travail.
+
+25/12/21
+Arriver au centre commercial à 11h30, récupérer l'express au supermarché à 18h00.
+
+26/12/21
+À la maison.
+
+26/12/21
+À la maison le matin. Prélèvement de gorge prélevé à domicile à 14h00. Etre transféré à l'hôtel d'observation médicale d'isolement centralisé à 14h40.
+
+Voie de transmission de l'épidémie, cas 16
+
+28 ans, homme, employé d'une entreprise de services commerciaux
+
+13/12/21
+Travail en entreprise de 08h00 à 18h30. Shopping au supermarché après le dîner.
+
+14/12/21
+Travail en entreprise.
+
+15/12/21
+Travail en entreprise.
+
+16/12/21
+Travail en entreprise le matin. 21h40 au restaurant de nouilles pour le dîner.
+
+17/12/21
+Travail en entreprise.
+
+18/12/21
+Travail en entreprise.
+
+19/12/21
+À la maison le matin. Récupérer sa livraison au bureau de messagerie à 20h00, puis aller faire ses courses au supermarché.
+
+20/12/21
+Travail en entreprise.
+
+21/12/21
+Travail en entreprise.
+
+22/12/21
+Travail en entreprise.
+
+23/12/21
+Travail en entreprise de 08h25 à 18h30. Dîner au restaurant de canard rôti après le travail. Taxi à la maison à 20h45, fête chez un ami à 22h.
+
+24/12/21
+Travail en entreprise de 08h25 à 18h30. Prendre la navette de l'entreprise pour rentrer chez soi après le travail.
+
+25/12/21
+Se rendre en voiture au magasin 4S à 7h00 pour acheter la voiture, puis s'enregistrer dans un autre magasin 4S, récupérer la voiture sur le parking et retourner au magasin 4S. Diner au magasin de nouilles à 21h00 et rentrer chez soi et recevoir un prélèvement d'acide nucléique dans un site de test centralisé dans le village.
+
+26/12/21
+Isolé seul à son domicile et transféré à l'hôtel d'observation médicale d'isolement centralisé à 13h00.
+
+Voie de transmission de l'épidémie, cas 17
+
+43 ans, homme, conducteur de covoiturage
+
+13/12/21
+Faire ses courses au magasin d'alimentation à 10h24, faire ses courses au marché à 11h40.
+
+14/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+15/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+16/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+17/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+18/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+19/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+20/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne.
+
+21/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne.
+
+22/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne.
+
+23/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+24/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+25/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+26/12/21
+Prise en charge et dépose des passagers via la plateforme en ligne entre 07h00 et 19h00, avec un déjeuner au magasin de nouilles principalement entre 12h00 et 13h00 pendant toute la période.
+
+27/12/21
+Transféré à l'hôtel d'observation médicale d'isolement centralisé aux premières heures du matin.

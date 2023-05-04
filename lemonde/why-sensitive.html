@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <script src="commonJS/common.js"></script>
+  <script src="commonJS/forbid.js"></script>
+
+  <link rel="stylesheet" href="css/verify.css">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      /* background: url(img/sensored-bonjour.png); */
+      background-color: #F5F6F8;
+    }
+
+    .top-logo {
+      display: block;
+      padding-left: 110px;
+    }
+
+    nav {
+      width: 1200px;
+      height: 70px;
+      background-color: #1B2228;
+      margin: 0 auto;
+      margin-top: 10px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+
+    nav a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 900;
+      padding: 0 10px;
+      text-align: center;
+    }
+
+    nav a:nth-child(1) {
+      padding-left: 30px;
+    }
+
+    input::placeholder {
+      color: #CCCDCF;
+    }
+
+    .main {
+      position: relative;
+      width: 1200px;
+      height: auto;
+      margin: 0 auto;
+      box-sizing: border-box;
+      background-color: #fff;
+      overflow: hidden;
+      margin-bottom: 50px;
+      padding: 20px;
+    }
+
+    .upper-nav {
+      font-size: 12px;
+      display: flex;
+      justify-content: start;
+    }
+
+    .upper-nav span {
+      display: block;
+      padding-left: 5px;
+      color: #A0A0A0;
+    }
+
+    .social-medias-share {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+
+    .shares {
+      text-align: center;
+      margin-left: 20px;
+    }
+
+    .share-num {
+      font-size: 32px;
+      color: #1E96FC;
+      font-weight: 900;
+    }
+
+    .facebook {
+      width: 260px;
+      height: 40px;
+      border-radius: 4px;
+      margin-left: 20px;
+      line-height: 40px;
+      font-weight: 600;
+      color: #fff;
+      background-color: #45629F;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .twitter {
+      width: 260px;
+      height: 40px;
+      border-radius: 4px;
+      margin-left: 10px;
+      line-height: 40px;
+      font-weight: 600;
+      color: #fff;
+      background-color: #5EB2EF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .origin-words {
+      display: block;
+      position: relative;
+      width: auto;
+      height: auto;
+      font-size: 18px;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+
+    .sliced-word {
+      text-decoration: none;
+      color: #000000;
+      box-sizing: border-box;
+      display: block;
+      float: left;
+      padding-right: 6px;
+      padding-left: 6px;
+      text-align: center;
+    }
+
+    .cover-forbid {
+      position: absolute;
+      text-decoration: none;
+      color: #000;
+      box-sizing: border-box;
+      display: block;
+      /* background-color: white; */
+      background-color: tomato;
+      /* background-color: #fff; */
+      text-align: center;
+      /* line-height: 38px; */
+      /* font-size: 18px; */
+      /* z-index: 999; */
+    }
+
+    .cover-forbid:hover {
+      opacity: .0;
+    }
+
+    .why-sensitive {
+      display: none;
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      padding-right: 5px;
+      text-align: right;
+      line-height: 40px;
+      border-radius: 5px;
+      /* border: 1px solid #cfcfcf; */
+      background: url(img/question-mark.png) no-repeat;
+      background-color: #fff;
+      background-size: 18px 18px;
+      /* background-position: 3px 10px; */
+      box-sizing: border-box;
+      left: 100px;
+      z-index: 9999;
+    }
+
+    .img-box {
+      display: block;
+      width: 750px;
+      margin-top: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    .origin-img {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="main">
+    <p class="upper-nav"><span>Home</span><span>></span><span>Why these websites are sensitive</span></p>
+    <!-- <div class="why-sensitive">单击以解释为什么敏感</div> -->
+    <div class="why-sensitive"></div>
+    <p class="origin-words">Pourquoi sensible ?
+      Bien sûr, la photo de profil de Xi Jinping est très sensible sur l'Internet chinois, et même si les internautes
+      chinois citent des images des médias d'État chinois, cela sera également censuré.
+    </p>
+    <a class="img-box" style="display: block; margin: 0 auto;padding-top: 10px;"><img src="img/why-sensitive/w73.png"
+        style="display:block;margin:0 auto; height: 300px;"></a>
+    <div style="width: 100%;text-align: center;">
+      <p class="origin-words">
+        Photo du vice-président Wang Qishan
+      </p>
+    </div>
+
+    <p class="origin-words">
+      Les informations faciales de ces dirigeants nationaux et de certaines personnes qui ont été bannies de tout
+      Internet sont enregistrées dans un certain système de censure. Une fois ces images utilisées, elles seront
+      censurées et, dans les cas graves, convoquées par le poste de police.
+    </p>
+    <p class="origin-words">
+      Le système de reconnaissance faciale chinois est très bien développé. Dans le commerce, les gens peuvent
+      effectuer
+      des paiements hors ligne simplement en scannant leur visage, sans avoir besoin de téléphones portables ou de
+      cartes bancaires.
+    </p>
+    <p class="origin-words">
+      Au niveau national, en raison de l'impact des personnes portant des masques pendant l'épidémie, il est désormais
+      possible d'identifier des informations personnelles à travers les yeux.
+    </p>
+    <a class="img-box"><img src="img/why-sensitive/ai-face.jpg" style="height: 300px;"></a>
+    <p class="origin-words">
+      Comment éviter la censure ?
+      Vers 2015, l'auto-média chinois s'est développé très rapidement, de sorte que certaines plateformes en ligne à
+      cette époque acceptaient des vidéos très vulgaires et lourdes pour attirer du trafic, et Lao Ba était l'un des
+      créateurs. Célèbre pour aller aux toilettes pour manger de la merde, cette décision a suscité une large
+      attention
+      et a fait de lui une sensation instantanée sur Internet.
+    </p>
+    <div style="padding-top: 30px;width:750px;height: 410px;margin-left: 10px;">
+      <object style="width: 100%;height: 100%;" data="https://www.youtube.com/embed/y8hZE9lWzGc"></object>
+    </div>
+    <p class="origin-words">
+      Lorsque le pays a commencé à prêter attention aux problèmes de santé d'Internet, il a naturellement été la
+      première cible à être éliminée, son compte a donc été interdit.
+    </p>
+    <p class="origin-words">
+      Il est donc passé à une autre plate-forme en ligne et a commencé à publier des vidéos de manger au moins de la
+      nourriture en ligne.
+    </p>
+    <div style="padding-top: 30px;width:750px;height: 410px;margin-left: 10px;">
+      <object style="width: 100%;height: 100%;" data="https://www.youtube.com/embed/Oi6CkesBOyY"></object>
+    </div>
+    <p class="origin-words">
+      Mais cela n'a pas duré longtemps, et lorsqu'il a été banni, il a choisi de porter un masque pour éviter un
+      examen
+      minutieux, d'où le masque vient dans les nouvelles.
+    </p>
+    <div style="padding-top: 30px;width:750px;height: 410px;margin-left: 10px;">
+      <object style="width: 100%;height: 100%;" data="https://www.youtube.com/embed/kznMH7s-r3I"></object>
+    </div>
+    <p class="origin-words">
+      De même, le fait de porter un masque ne lui a permis de survivre qu'un temps. Après avoir été nommé et critiqué
+      par les médias d'État chinois, il a été bloqué par toute la plateforme du réseau. Il ne pouvait plus devenir un
+      auto-média. À l'heure actuelle, il n'y a qu'un très petit nombre de ses propres vidéos sur l'Internet chinois,
+      ainsi que quelques œuvres vidéo étendues basées sur ses symboles de réseau.
+    </p>
+    <p class="origin-words">
+      Un autre exemple est l'athlète d'arts martiaux mixtes Xu Xiaodong, qui a été banni pour ses propos liés au
+      défilé
+      de Hong Kong en 2019, il a donc dû porter de la peinture de camouflage sur le visage pour participer à la
+      compétition de combat.
+    </p>
+    <div style="padding-top: 30px;width:750px;height: 410px;margin-left: 10px;">
+      <object style="width: 100%;height: 100%;" data="https://www.youtube.com/embed/7R5VHb79pks"></object>
+    </div>
+    <p class="origin-words">
+      Bien que ces deux méthodes ne soient pas nécessairement efficaces, on ne peut nier qu'il s'agit d'un acte fait
+      pour éviter la censure. J'ai donc utilisé une photo d'un cosplayeur du Comic-Con, et essayé de désensibiliser
+      l'image, car mon Photoshop n'est pas très bon, mais cela n'affecte pas la compréhension du public.
+    </p>
+    <a class="img-box"><img src="img/why-sensitive/face-covered-xi.PNG" style="height: 300px;"></a>
+
+
+  </div>
+
+</body>
+
+</html>

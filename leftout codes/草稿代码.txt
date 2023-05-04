@@ -1,0 +1,25 @@
+  // for (var i = 0, len = aSingleWord.length; i < len; i++) {
+      //   if (originWords.includes(aSingleWord[i].innerText)) {
+      //     //记录元素的位置
+      //     // console.log(aSingleWord[i].offsetLeft, aSingleWord[i].offsetTop);
+      //     var newBlock = document.createElement('a');
+      //     newBlock.classList.add('cover-forbid');
+      //     newBlock.innerText = forbiWords[originWords.indexOf(aSingleWord[i].innerText)];
+      //     var lenWords = forbiWords[originWords.indexOf(aSingleWord[i].innerText)].length;
+      //     var newW;
+      //     if (lenWords < 8) {
+      //       newBlock.style.width = newW = lenWords * 16 + 80 + 'px';
+      //       aSingleWord[i].style.width = newW = lenWords * 16 + 80 + 'px';
+      //     } else {
+      //       newBlock.style.width = newW = lenWords * 14 + 20 + 'px';
+      //       aSingleWord[i].style.width = newW = lenWords * 14 + 20 + 'px';
+      //     }
+      //     newW = parseInt(newW);
+      //     newBlock.style.height = newH = aSingleWord[i].offsetHeight + 'px';
+      //     newBlock.style.left = aSingleWord[i].offsetLeft + 'px';
+      //     // aSingleWord[i].style.paddingRight = 12 + newW - aSingleWord[i].offsetWidth + 'px';
+      //     newBlock.style.lineHeight = newH;
+      //     newBlock.style.top = aSingleWord[i].offsetTop + 'px';
+      //     label.appendChild(newBlock);
+      //   }
+      // }

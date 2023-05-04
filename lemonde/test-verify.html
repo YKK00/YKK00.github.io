@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <script src="commonJS/common.js"></script>
+  <script src="commonJS/forbid.js"></script>
+
+  <link rel="stylesheet" href="css/verify.css">
+  <link rel="stylesheet" href="css/test-verify.css">
+  <audio id="soundEffect" src="audio/fort.mp3" preload="auto"></audio>
+  <audio id="backgroundMusic" src="audio/faible.mp3" preload="auto" loop autoplay></audio>
+  <style>
+    @keyframes shake {
+      0% {
+        transform: translate(1px, 1px) rotate(0deg);
+      }
+
+      10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+      }
+
+      20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+      }
+
+      30% {
+        transform: translate(3px, 2px) rotate(0deg);
+      }
+
+      40% {
+        transform: translate(1px, -1px) rotate(1deg);
+      }
+
+      50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+      }
+
+      60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+      }
+
+      70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+      }
+
+      80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+      }
+
+      90% {
+        transform: translate(1px, 2px) rotate(0deg);
+      }
+
+      100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+      }
+    }
+
+    img.shake {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+  </style>
+
+</head>
+
+<body>
+  <canvas id="noise-canvas"></canvas>
+  <div class="verify-wrap">
+    <div class="verify-window">
+      <div class="veri-header">
+        <div class="veri-header-text">
+          <p>Sélectionnez toutes les cases montrant des </p>
+          <h2>Une personne qui se sent heureuse, en sécurité et fière</h2>
+        </div>
+      </div>
+      <div class="veri-imgs">
+        <ul>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+          <li><img class="diff-imgs" alt=""><img src="img/selected.jpg" alt="" class="img-selected">
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="veri-footer">
+        <ul>
+          <li><img src="img/veri-refresh.jpg" alt=""></li>
+          <li><img src="img/veri-disabled.jpg" alt=""></li>
+          <li><img src="img/veri-info.jpg" alt=""></li>
+        </ul>
+        <a class="loading"></a>
+        <a class="veri-verify">VALIDER</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- <input type="text" class="input-words" placeholder="输入你想屏蔽的词汇">
+  <div class="origin-words">
+    <span>一键屏蔽</span>
+  </div> -->
+  <!-- <div class="header"></div> -->
+  <h1 class="top-logo">
+    <img src="img/Black_and_White_Bordered_Band_Logo__1_-removebg-preview-e1632028598101.png" width="210" alt="">
+    <p id="click-sound" style="display: block; margin-left: 10px;">BGM</p>
+  </h1>
+  <nav>
+    <a href="javascript:;">HOME</a>
+    <a href="javascript:;">DERNIÈRE NOUVELLES</a>
+    <a href="javascript:;">AUTONIEUWS</a>
+    <a href="javascript:;">MODE DE VIE</a>
+    <input type="text" style="background-color: #32393E; border: 0; margin-left: 400px; width: 160px;height: 40px; outline-style: none;
+      font-size: 14px; padding-left: 10px; caret-color: #CCCDCF;" placeholder="Search...">
+  </nav>
+
+
+  <div class="main">
+    <p class="upper-nav"><span>Home</span><span>></span><span>Dernières nouvelles</span></p>
+    <!-- <div class="why-sensitive">单击以解释为什么敏感</div> -->
+    <div class="why-sensitive"></div>
+    <h1 class="origin-words" style="font-size: 40px;">Le père d’un dissident chinois qui a dégradé une affiche du
+      président Xi-Jinping est mort en prison</h1>
+
+    <div class="use-info" style="display: flex;align-items: center;padding-top: 20px; width: 880px;">
+      <img src="img/icone/469b8b6a7c0a4e8306fd48a253524301.png" width="36" height="36" alt="">
+      <span style="color:#a0a0a0; margin-left: 5px;">by&nbsp;</span>
+      <span style="color: #1E96FC;">admin&nbsp;</span>
+      <span style="color:#a0a0a0;">&nbsp;-&nbsp;</span>
+      <span style="color:#a0a0a0;">&nbsp;septembre 28, 2022 in Dernières nouvelles
+      </span>
+      <img src="img/icone/chat_bubble_FILL0_wght400_GRAD0_opsz48.png" height="20" alt="" style="margin-left: 5px;">
+    </div>
+    <a class="img-box" href="why-sensitive.html" target="_blank"><img class="origin-img"></a>
+
+    <div class="social-medias-share">
+      <div class="shares">
+        <div class="share-num">0</div>
+        <div>shares</div>
+      </div>
+      <div class="shares">
+        <div class="share-num" style="color:#595C5F;">27</div>
+        <div>views</div>
+      </div>
+      <div class="facebook"><img width="18" height="18" alt="" style="padding-right: 5px;"> Share on
+        erreur 404</div>
+      <div class="twitter"><img width="18" height="18" alt="" style="padding-right: 5px;">Share on
+        erreur 404</div>
+      <div class="pinterest"><img src="img/icone/1b7601e035a83c13c208b4ec905ee6d9.png" alt="" width="40" height="40">
+      </div>
+      <div class="linkshare">
+        <img src="img/icone/share_FILL0_wght400_GRAD0_opsz48.png" alt="" width="30" height="30">
+      </div>
+    </div>
+    <p class="origin-words">Le père d’un dissident chinois qui a dégradé une affiche du
+      président Xi-Jinping est mort en prison dans des circonstances ambiguës, ont annoncé
+      cette semaine des militants et des médias.
+    </p>
+    <p class="origin-words">Dong-Jianbiao purgeait-une-peine de plusieurs années pour s’être opposé à
+      l-internement de sa fille Dong-Yaoqiong dans un service psychiatrique en 2018
+      et à nouveau en 2020, après avoir éclaboussé d’encre noire le portrait de Xi
+      dans un flux en direct sur Twitter, a déclaré lundi Radio Free Asia (RFA).
+    </p>
+
+    <!-- <img alt="Tank Man (Tiananmen Square protester).jpg" src="//upload.wikimedia.org/wikipedia/en/thumb/d/dd/Tank_Man_%28Tiananmen_Square_protester%29.jpg/220px-Tank_Man_%28Tiananmen_Square_protester%29.jpg" decoding="async" width="220" height="148" srcset="//upload.wikimedia.org/wikipedia/en/thumb/d/dd/Tank_Man_%28Tiananmen_Square_protester%29.jpg/330px-Tank_Man_%28Tiananmen_Square_protester%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/d/dd/Tank_Man_%28Tiananmen_Square_protester%29.jpg 2x" data-file-width="385" data-file-height="259"> -->
+
+    <p class="origin-words">Dong-Jianbiao, un mineur de la province du Hunan, dans le centre de la
+      Chine, est décédé dans la prison de Chaling le 23 septembre, selon le militant-des-droits-de-l-homme Chen-Siming,
+      lui-même détenu pour avoir tweeté sur la
+      mort, a rapporté RFA.
+    </p>
+    <p class="origin-words">Chen, citant des proches de la famille Dong, a déclaré que le corps du père
+      était « couvert de signes de blessure lorsqu’ils sont allés l’identifier à la
+      morgue ».
+    </p>
+
+    <p class="origin-words">« Il y avait des blessures causées par des coups sur tout le corps, du sang
+      dans son anus et ses yeux n’étaient pas fermés », a déclaré un cousin. Le
+      parent a déclaré qu’aucun téléphone portable n’était autorisé à l’intérieur.</p>
+    <p class="origin-words">Un jour après la mort de Dong-Jianbiao, les autorités pénitentiaires ont
+      déclaré qu’il était mort du diabète. Son corps a été incinéré cinq jours plus tard,
+      a déclaré RFA, citant des membres de la famille qui soupçonnaient un acte
+      criminel. Newsweek a contacté la police de Zhuzhou.</p>
+    <a class="img-box" href="why-sensitive.html" target="_blank"><img class="origin-img"></a>
+    <p class="origin-words" style=" font-size: 14px;">Le président chinois Xi-Jinping assiste au
+      sommet des dirigeants de
+      l’Organisation de coopération de Shanghai à Samarcande, en Ouzbékistan. Le
+      père du manifestant chinois Dong-Yaoqiong, un dissident qui a dégradé une
+      affiche de Xi en 2018, est décédé dans une prison de la province du Hunan le
+      23 septembre, a rapporté Radio Free Asia.
+      SERGEI BOBYLYOV/SPOUTNIK/AFP via Getty Images</p>
+    <p class="origin-words">Dong-Yaoqiong, connue sous le nom de « fille d-encre », a passé deux
+      séjours dans le même hôpital psychiatrique de sa ville natale de Zhuzhou, dans
+      le Hunan, pour un « traitement obligatoire », avait précédemment rapporté
+      RFA.</p>
+    <p class="origin-words">Dans un livestream de son compte Twitter @feefeefly en juillet 2018, Dong-Yaoqiong s’est
+      filmée en public alors qu’elle se dirigeait vers une affiche de Xi à
+      Shanghai, avant d-asperger le visage du dirigeant chinois d’encre noire.</p>
+    <p class="origin-words">« Je m’oppose à la dictature et à la tyrannie de Xi-Jinping », a-t-elle
+      déclaré. « Je m’oppose au lavage de cerveau et à la suppression de moi par le
+      Parti communiste. »
+    </p>
+
+
+
+    <p class="origin-words">Dong-Yaoqiong a dit plus tard que des policiers en uniforme étaient arrivés
+      à sa porte pour l’emmener. « Je n’ai pas commis de crime. Les personnes et les
+      groupes qui m’ont fait du mal sont les coupables », a-t-elle déclaré.</p>
+
+    <!--<div style="padding-top: 30px;width:750px;height: 410px;margin-left: 10px;">
+      <object style="width: 100%;height: 100%;" data="https://www.youtube.com/embed/qWVC-nCzFGE"></object>
+    </div>!-->
+
+    <p class="origin-words">Son père a été arrêté plusieurs jours plus tard alors qu’il tentait de lui
+      rendre visite à l’hôpital, a déclaré RFA.</p>
+    <p class="origin-words">C’est actuellement une période sensible pour les commentaires politiques
+      en Chine. Le parti au pouvoir se prépare pour son 20e Congrès national, un
+      événement qui se déroule deux fois par décennie et qui comprend
+      généralement des remaniements aux postes de direction clés.
+    </p>
+    <p class="origin-words">Xi, qui est à la tête depuis 10 ans, devrait rompre avec le précédent et
+      conserver les postes politiques et militaires les plus élevés du parti et du pays
+      pour un troisième mandat de cinq ans. Cette décision a entraîné une
+      surveillance accrue et des rumeurs invérifiables sur une rébellion interne.</p>
+    <p class="origin-words">RFA, qui est financé par le gouvernement américain, a commencé à diffuser
+      sur les ondes asiatiques en 1996.</p>
+    <p class="origin-words">Ses défenseurs de longue date incluent le président Joe Biden, qui en 1998
+      – alors encore sénateur de l’État du Delaware – a noté la capacité de RFA à
+      fournir une plate-forme aux voix chinoises pro-démocratie et pro-réforme, y
+      compris les dissidents, après la répression de Pékin contre les étudiants.
+      manifestations sur la place Tiananmen et ailleurs en 1989.</p>
+    <p class="origin-words">Le gouvernement chinois, qui considère RFA comme un « outil de
+      propagande américain », a brouillé les fréquences de la station et interdit son
+      site Internet.</p>
+  </div>
+
+
+  <script src="commonJS/verify.js"></script>
+  <script src="commonJS/noise.js"></script>
+  <script src="commonJS/test-verify.js"></script>
+
+</body>
+
+</html>

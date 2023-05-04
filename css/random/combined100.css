@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.combine {
+    height: 100vh;
+    width: 100vm;
+    background-color: pink;
+    position: relative;
+}
+
+.combine ul {
+    list-style: none;
+    background-color: green;
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+.combine ul li {
+    background-color: white;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 4px;
+    /* 强制换行 */
+    word-wrap: break-word;
+}

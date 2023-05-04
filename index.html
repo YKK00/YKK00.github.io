@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'espace muette</title>
+  <link rel="stylesheet" href="css/fishc.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- 引入favicon图标 -->
+  <link rel="shortcut icon" href="favion.ico">
+  <script src="commonJS/common.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background: url('videos/video5798479499146300802.mp4');
+      /* background-size: 50% auto; */
+      /* height: 2000px; */
+    }
+
+    video#bgvid {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      background-size: cover;
+    }
+
+    .header {
+      width: 200px;
+      height: 100%;
+      /* background-color: tomato; */
+      left: 0;
+      top: 0;
+      /* display: flex; */
+      /* flex-wrap: wrap; */
+      /* align-items: center; */
+      position: fixed;
+      opacity: 1;
+    }
+
+    .header a {
+      height: 80px;
+      line-height: 80px;
+      width: 100%;
+      text-decoration: none;
+      color: white;
+      display: block;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .header a:hover {
+      background-color: brown;
+      color: white;
+    }
+
+    .sensored-bonjour {
+      text-decoration: none;
+      /* color: rgba(133, 133, 133, 1); */
+      color: white;
+      font-size: 80px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- <a id="randomNet"><button>Bienvenue dans le monde du réalisme magique</button></a> -->
+
+  <div style="width: 1000px;height: 120px;position: relative;">
+    <a style="display: block;position: absolute;top: 0;left: 0;right: 0;text-align: center;" href="javascript:;"
+      class="sensored-bonjour">
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+      <i></i>
+    </a>
+    <div style="display: block;position: absolute;bottom: 0;left: 0;right: 0;text-align: center;color:#ffffff">
+      <p> Cliquez sur le mot pour jouer de la musique de fond ou couper le son.</p>
+    </div>
+  </div>
+
+  <div class="header">
+    <a onclick="window.location='lemonde/test-verify.html'" target="_blank">Nouvelle censurée</a>
+    <a href="files/emoji-6.1.pdf" target="_blank">Livret en emoji</a>
+    <!-- <a href="javascript:;" class="randomThoughts">随机一个想法</a> -->
+    <a href="https://www.youtube.com/watch?v=JSs327ArtSg&t=5s
+    " target="_blank">vidéo</a>
+    <a href="files/轨迹.txt" target="_blank">Trajectoire épidémique</a>
+    <!-- <a href="lemonde/chat-changer.html" target="_blank">Révision de vocabulaire</a> -->
+  </div>
+
+
+  <video autoplay muted loop class="bgvid" id="bgvid">
+    <source src="videos/video5798479499146300802.mp4" type="video/mp4">
+  </video>
+
+  <script>
+    var insideTextBonjour = ['80N70UR', 'ß0ПĴӨЦЯ', 'PONTOUE', '⽈⼝⻔丁⼝⼐尺'];
+
+    // //单词变化版本
+    // setInterval(() => {
+    //   document.querySelector('.sensored-bonjour').innerText = insideTextBonjour[Math.round(Math.random() * insideTextBonjour.length)];
+    // }, 100);
+
+    //字母变化版本
+    setInterval(() => {
+      for (i = 0; i < 7; i++) {
+        document.querySelector('.sensored-bonjour').children[i].innerText = insideTextBonjour[Math.round(Math.random() * (insideTextBonjour.length - 1))][i];
+      }
+    }, 100);
+
+    document.querySelector('.sensored-bonjour').addEventListener('click', () => {
+      document.querySelector('video').muted = !document.querySelector('video').muted;
+
+    })
+
+  </script>
+
+</body>
+
+</html>
